@@ -19,7 +19,7 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             arrOne += arr[i];
         }
-        System.out.println("Ñóììà òðàò çà ìåñÿö ñîñòàâèëà " + arrOne + " ðóáëåé");
+        System.out.println("Ð¡ÑƒÐ¼Ð¼Ð° Ñ‚Ñ€Ð°Ñ‚ Ð·Ð° Ð¼ÐµÑÑÑ† ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ð»Ð° " + arrOne + " Ñ€ÑƒÐ±Ð»ÐµÐ¹");
 
 
         //task2
@@ -33,13 +33,13 @@ public class Main {
                 arrThree = arrThree + arr[i];
             }
         }
-        System.out.println("Ìèíèìàëüíàÿ ñóììà òðàò çà äåíü ñîñòàâèëà " + arrTwo + " ðóáëåé. Ìàêñèìàëüíàÿ ñóììà òðàò çà äåíü ñîñòàâèëà " + arrThree + " ðóáëåé");
+        System.out.println("ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ ÑÑƒÐ¼Ð¼Ð° Ñ‚Ñ€Ð°Ñ‚ Ð·Ð° Ð´ÐµÐ½ÑŒ ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ð»Ð° " + arrTwo + " Ñ€ÑƒÐ±Ð»ÐµÐ¹. ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð°Ñ ÑÑƒÐ¼Ð¼Ð° Ñ‚Ñ€Ð°Ñ‚ Ð·Ð° Ð´ÐµÐ½ÑŒ ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ð»Ð° " + arrThree + " Ñ€ÑƒÐ±Ð»ÐµÐ¹");
 
         //task3
 
         int all = 0;
         all = arrOne / arr.length - 1;
-        System.out.println("Ñðåäíÿÿ ñóììà çàòðàò çà ìåñÿö ñîñòàâèëà " + all + " ðóáëåé.");
+        System.out.println("Ð¡Ñ€ÐµÐ´Ð½ÑÑ ÑÑƒÐ¼Ð¼Ð° Ð·Ð°Ñ‚Ñ€Ð°Ñ‚ Ð·Ð° Ð¼ÐµÑÑÑ† ÑÐ¾ÑÑ‚Ð°Ð²Ð¸Ð»Ð° " + all + " Ñ€ÑƒÐ±Ð»ÐµÐ¹.");
 
         //task4
         char[] reverseFullName = { 'n','a','v','I',' ','v','o','n','a','v','I'};
