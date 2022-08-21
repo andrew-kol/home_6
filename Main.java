@@ -23,17 +23,17 @@ public class Main {
 
 
         //task2
-        int arrTwo = 0;
-        int arrThree = 0;
-        for (int i = 0; i < arr.length - 1; i++)  {
-            if (arr[i] < arr[i+1]) {
-                arrTwo = arrTwo + arr[i];
+        int maxFin = 0;
+        int minFin = 0;
+        for (int i = 0; i < arr.length; i++)  {
+            if (arr[i] > maxFin) {
+                maxFin = arr[i];
             }
-            if (arr[i] > arr[i+1]) {
-                arrThree = arrThree + arr[i];
+            if (arr[i] < minFin) {
+                minFin = arr[i];
             }
         }
-        System.out.println("Минимальная сумма трат за день составила " + arrTwo + " рублей. Максимальная сумма трат за день составила " + arrThree + " рублей");
+        System.out.println("Минимальная сумма трат за день составила " + minFin + " рублей. Максимальная сумма трат за день составила " + maxFin + " рублей");
 
         //task3
 
